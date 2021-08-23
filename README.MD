@@ -11,10 +11,10 @@ In this Repo is a set of codes that you can upload to your Pico for you to do ju
 * Wires
 
 ![Back of the Switch](/images/back.jpg)
-_Back of the switches you can see there are 2 pins for each switch_
+_Back of the switches you can see there are 2 pins for each switch._
 
 ![wiring](/images/wiring.png)
-_I wired the top line of contacts as the gound and the other as the Digital Read line_
+_I wired the top line of contacts as the gound and the other as the Digital Read line. I cut a 22AWG wire and stip the insulation in between in order to just use one long wite to connect the groud._
 
 ![wiring](/images/Finished.jpg)
 _The finished look_
