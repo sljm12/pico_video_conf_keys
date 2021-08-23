@@ -4,11 +4,27 @@ Now you can you just need a Raspberry PI Pico, a set of cheap key switch tester 
 
 In this Repo is a set of codes that you can upload to your Pico for you to do just that. 
 
-Steps:
+## Parts:
+* Raspberry PI Pico
+* Breadboard (if you dont want to solder directly to the pico
+* Switch Tester (https://shopee.sg/Gateron-MX-Switch-Acrylic-Mechanical-Keyboards-Switch-4-Translucent-Clear-Sampler-Tester-Kit-Toys-Stress-Relief-Gifts--i.135054553.2628487640)
+* Wires
+
+![Back of the Switch](/images/back.jpg)
+_Back of the switches you can see there are 2 pins for each switch_
+
+![wiring](/images/wiring.png)
+_I wired the top line of contacts as the gound and the other as the Digital Read line_
+
+![wiring](/images/Finished.jpg)
+_The finished look_
+
+## Steps:
 * Clone this repository
 * Rename test_button.py to code.py if you want to run this automatically when the Pico is plug in
 * Configure the code to load the correct set of keycodes
 
-** vtc_codes.py
+## Modifying the keys
 You can look at vtc_codes.py to see a sample of how to add new key codes or to expand it.
+
 
