@@ -5,7 +5,7 @@ Now you can you just need a Raspberry PI Pico, a set of cheap key switch tester 
 In this Repo is a set of codes that you can upload to your Pico for you to do just that. 
 
 ## Parts:
-* Raspberry PI Pico
+* Raspberry PI Pico flashed with CircuitPython 6.3.0
 * Breadboard (if you dont want to solder directly to the pico
 * Switch Tester (https://shopee.sg/Gateron-MX-Switch-Acrylic-Mechanical-Keyboards-Switch-4-Translucent-Clear-Sampler-Tester-Kit-Toys-Stress-Relief-Gifts--i.135054553.2628487640)
 * Wires
