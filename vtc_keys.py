@@ -72,3 +72,21 @@ class BlueJeans:
             print("Blue Jeans Video pressed")
             self.kbd.send(Keycode.V)
         return t
+
+class WebEx:
+    def __init__(self, kbd):
+        '''
+        kbd a AdaFruit HID Keyboard instance
+        '''
+        self.kbd = kbd
+    def mute(self):
+        def t():
+            print("WebEx mute/unmute pressed")
+            self.kbd.send(Keycode.LEFT_CONTROL, Keycode.M)
+        return t
+        
+    def camera(self):
+        def t():
+            print("WebEx camera pressed")
+            self.kbd.send(Keycode.LEFT_CONTROL, Keycode.SHIFT, Keycode.V)
+        return t
